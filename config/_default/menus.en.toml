@@ -1,0 +1,84 @@
+# -- Main Menu --
+# Displayed in the header navigation bar.
+# Ordered by weight (lower → left, higher → right)
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  pre = "home"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  pre = "user"
+  weight = 20
+
+[[main]]
+  name = "Experience"
+  pageRef = "experience"
+  pre = "briefcase"
+  weight = 30
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  pre = "code"
+  weight = 40
+
+[[main]]
+  name = "Skills"
+  pageRef = "skills"
+  pre = "cpu"
+  weight = 50
+
+[[main]]
+  name = "Leadership"
+  pageRef = "leadership"
+  pre = "users"
+  weight = 60
+
+[[main]]
+  name = "Competitions"
+  pageRef = "competitions"
+  pre = "trophy"
+  weight = 70
+
+
+# -- Optional Subnavigation (Example) --
+# Appears under certain pages if enabled in theme config
+# Uncomment if you want tag/category navigation later
+
+[[subnavigation]]
+  name = "Robotics"
+  pageRef = "tags/robotics"
+  pre = "bot"
+  weight = 10
+
+[[subnavigation]]
+  name = "GenAI"
+  pageRef = "tags/genai"
+  pre = "sparkles"
+  weight = 20
+
+
+# -- Footer Menu --
+# Displayed at the bottom of the site
+
+[[footer]]
+  name = "GitHub"
+  url = "https://github.com/AaksharGarg"
+  pre = "github"
+  weight = 10
+
+[[footer]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/aakshar-garg-64611026a/"
+  pre = "linkedin"
+  weight = 20
+
+[[footer]]
+  name = "Email"
+  url = "mailto:aakshargarg@gmail.com"
+  pre = "mail"
+  weight = 30
