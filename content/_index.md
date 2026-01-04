@@ -4,6 +4,6 @@ title: "Home"
 
 
 
-{{< rotating_widget >}}
+{{&lt; rotating_widget &gt;}}
 
-{{< home_cta >}}
+{{&lt; home_cta &gt;}}
